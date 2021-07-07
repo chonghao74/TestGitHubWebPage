@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+<head>
+	<title>灰灰 rocky</title>
+	<meta charset="utf-8">
+	<meta name ="description" content="灰灰的介紹">
+	<meta name="keywords" content="灰灰,汪汪隊灰灰,威力狗灰灰">
+	<link rel="stylesheet" type="text/css" href="../css/stylesub.css" media="all">
+</head>
+<body>
+	<header>
+		<h1>灰灰 Rocky</h1>
+	</header>
+	<main>
+		<section class="mainsection">
+		    <img class="mainimg" src="../img/pawpatrol_rocky2.png" alt="灰灰">	
+		    <form class="mainimg mainmove"  id="infor" action="#" method="post" required>
+		    	<strong>*為必填資訊</strong>
+		        <table class = "entryTable">
+		    	    <caption>基本簡介</caption>
+		    	    <tr>
+		    	    	<th>名稱*:</th>
+		    	    	<td>
+		    	    		<input type="text" name="name" autofocus placeholder="灰灰" >
+		    	    		<small>請輸入狗狗名稱</small>
+		    	    	</td>
+		    	    </tr>
+		    	    <tr>
+		    	    	<th>性別:</th>
+		    	    	<td>
+		    	    		<input type="radio" name="sex" id="male" checked=""><label for="male">男</label>
+		    	    	    <input type="radio" name="sex" id="female"><label for="female">女</label>
+		    	    	</td>
+		    	    </tr>
+		    	    <tr>
+		    	    	<th>歲數:</th>
+		    	    	<td>
+		    	    		<select name ="age" required>
+		    	    			<option value="-1" selected>請選擇</option>
+		    	    			<option value="0" >0</option>
+		    	    			<option value="1" >1</option>
+		    	    			<option value="2" >2</option>
+		    	    			<option value="3" >3</option>
+		    	    			<option value="4" >4</option>
+		    	    			<option value="5" >5</option>
+		    	    			<option value="6" >6</option>
+		    	    			<option value="7" >7</option>
+		    	    		</select><span style="margin-left: 5px;">歲</span>
+		    	    	</td>
+		    	    </tr>
+		    	    <tr><th>信箱:</th><td><input type="email" name="email"></td></tr>
+		    	    <tr>
+		    	    	<th>最愛的食物:</th>
+		    	    	<td>
+		    	    		<input type="checkbox" name="food" id="food1"><label for="food1">魚</label>
+		    	    	    <input type="checkbox" name="food" id="food2"><label for="food2">肉</label>
+		    	    	    <input type="checkbox" name="food" id="food3"><label for="food3">其他</label>
+		    	    	</td>
+		    	    </tr>
+		    	    <tr><th>簡介:</th><td><textarea name="intro" rows="5" cols="50"></textarea></td></tr>
+		    	    <tr>
+		    	    	<th>圖片</th>
+		    	    	<td><input type="file" name="imagemyself" value="檔案選擇" ></td>
+		    	    </tr>
+		        </table>	
+		        <div class="enrtyBtn">
+		        	<input type="reset" name="reset" value="全部清除">
+	        		<input type="submit" name="submit" value="送出">	    		        	
+		        </div>
+	
+		    </form>
+		</section>
+	</main>
+</body>
+</html>

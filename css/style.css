@@ -1,0 +1,151 @@
+@charset "utf-8";
+body {
+	background-image:url(../img/body_bg_image.jpeg) ;
+	background-color:#fbf9cc;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+h1{
+	background: #6fbb9a;
+	color: #fff;
+	border: 5px solid; #95dbbd;
+	margin: 400px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+    padding: 30px;
+	border-radius: 50%;
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 1px 1px 5px #000;
+	font-family: 'Noto Serif TC', serif;
+}
+
+nav ul li{
+	list-style-type: square;
+}
+
+ nav ul li ul li,footer{
+	text-align: center;
+}
+
+ nav ul li ul li{
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	width: 180px;
+	margin: 5px;
+}
+
+li a{
+	background-color: #6fbb9a;
+	color: #000;
+	display: block;
+	padding: 10px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+/*pseudo class -未連過的連結*/
+a:link{
+	color: #000;
+}
+
+a:visited{
+    color: #4169e1;
+}
+
+a:hover{
+    color: #DDDDDD;
+}
+
+a:active{
+    color: #f5deb3;
+}
+
+a:focus{
+    color: #ff0000;
+}
+
+
+
+
+
+h2{
+	border: 1px dotted #94c8b1;
+	border-left: 10px solid #d0e35b;
+	padding: 20px;
+	color: #6fbb9a;
+	border-radius: 10px 0 0 10px;
+}
+
+h3 {
+	font-weight: bolder;
+	color: #ff705b;
+	padding: 10px;
+	background-color: #fbf9cc;
+	border-radius: 10px;
+	border: 1px solid #ffd0ad;
+}
+
+h3 span{
+	font-weight: bold;
+	color: #191970;
+}
+
+
+main#content{
+	width: 838px;
+	margin:0 auto ;
+	background-color: #fff;
+	border: 1px solid #f6bb9e;
+	padding: 20px 60px ;
+}
+
+div.divmore{
+	text-align: right;
+}
+
+a.more::after{
+	content: url(../img/pawpatrol_moreicon.jpeg);
+	margin-left: 3px;
+	vertical-align: middle;
+}
+
+.img1,.img3,.img5,.img7{
+	float: left;
+	margin-right: 30px;
+}
+
+.img2,.img4,.img6{
+	float: right;
+	margin-left: 30px;
+}
+
+.clear{
+	clear: both;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*
+.showimgvideo:after{
+	content: "";
+	display: block;
+	clear: both;
+	width: 500px;
+}
+*/
+.showimgvideo{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+

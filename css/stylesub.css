@@ -1,0 +1,88 @@
+@charset "utf-8";
+.mainsection:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.mainimg{
+	float: left;
+}
+
+.mainmove{
+	margin-left: 30px;
+}
+
+table.entryTable{
+	width: 100%;
+	margin-bottom: 30px;
+	border: 2px solid #f6bb9e;
+	border-collapse: collapse;
+}
+
+table.entryTable th,.entryTable td{
+	padding: 10px 20px;
+	border: 1px solid #f6bb9e;
+}
+
+table caption{
+	margin-bottom: 10px;
+}
+
+.entryTable th{
+	background-color: #ffeeee;
+	width: 6em;
+	text-align: left;
+}
+
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable textarea{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+}
+
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+.entryTable textarea :focus{
+    background-color: #ffffee;
+    outline: none;
+    border-left: 5px solid #ffa700;
+}
+
+label,
+input,
+textarea,
+select{
+	cursor: pointer;
+}
+
+.enrtyBtn{
+	text-align: center;
+}
+
+.enrtyBtn input{
+	width: 200px;
+	-webkit-appearance: none;
+	margin: 0 10px;
+	padding: 10px;
+	font-size:  1em;
+	background: #fff;
+	border: 2px solid #f6bb9e;
+	border-radius: 10px;
+}
+
+.enrtyBtn input[type="submit"]{
+	background-color: #fadccc;
+
+}
+
+.enrtyBtn input:hover{
+	opacity: 0.7;
+}
+
+
+

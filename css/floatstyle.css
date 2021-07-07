@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+	width: 1000px;
+	background-color: beige;
+}
+header{
+	background-color: lightpink;
+}
+footer{
+	background-color: gold;
+	clear: both;
+}
+
+#content{
+	box-sizing: border-box;
+	width: 700;
+	border: 3px solid orange;
+	float: left;
+}
+
+#main{
+	float: left;
+	width: 300px;
+	background-color: palegreen;
+	margin-left: 30px;
+}
+
+#side1{
+	float: right;
+	width: 300px;
+	background-color: skyblue;
+	margin-right: 30px;
+}
+
+#side2{
+	float: right;
+	width: 200;
+	background-color: plum;
+}
+#cell{
+	background-color: #fff;
+	width: 500px;
+	list-style: none;
+	clear: both;
+	overflow: scroll;
+}
+
+#cell:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#cell li{
+	width: 225px;
+	height: 160px;
+	display: inline-block;
+	background-color: grey;
+	text-align: center ;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+table{
+		width: 100%;
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table th,table td{
+	padding: 10px 20px;
+	border: 1px solid #808080;
+}
+
+table caption{
+	margin-bottom: 30px;
+}
+
+table thead ,table tfoot {
+	background-color: #D3d3d3;
+}
+
+.avgcol{
+	background-color: #f6bb9e;
+}

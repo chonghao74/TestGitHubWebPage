@@ -1,0 +1,54 @@
+@charset "utf-8";
+.topabsolution{
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	line-height:100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+}
+
+main{
+	width: 300px;
+	height: 1000px;
+	background-color: beige;
+	margin-top: 100px;
+}
+
+.sec1{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 150px;
+}
+
+.sec2{
+	margin-top: 5px;
+	height: 150px;
+	position: relative;
+
+}
+.div1{
+	padding: 5px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	line-height: 1;
+	left: -30;
+	top: 0;
+	transform: rotate(-45deg);
+}
+.div2{
+}
+
+.btnTop{
+	position: fixed;
+	right: 0;
+	bottom: 40;
+}
+
+
+
