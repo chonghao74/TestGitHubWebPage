@@ -16,8 +16,8 @@
 			
 			var isMobile = device.mobile();
 			var isTablet = device.tablet();
-			var width = (isMobile || isTablet) ? screen.width: window.innerWidth;
-			alert("Device Pixel Ratio:"+window.devicePixelRatio +"\n"+"WRWD Width:"+window.innerWidth);
+			var width = (isMobile) ? screen.width: window.innerWidth;
+			alert("Device Pixel Ratio:"+window.devicePixelRatio +"\n"+"RWD Width:"+width);
 		}
 	</script>
 </head>
