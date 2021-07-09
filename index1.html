@@ -8,13 +8,15 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="">
 	<link rel="icon" size ="144x144" href="galaxy.png">
 	<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
 	<script type="text/javascript">
 		window.onload=function(){ 
 			
-			var deviceData = device.mobile();
-			var width = (deviceData) ? screen.width: window.innerWidth;
+			var isMobile = device.mobile();
+			var isTablet = device.tablet();
+			var width = (isMobile || isTablet) ? screen.width: window.innerWidth;
 			alert("Device Pixel Ratio:"+window.devicePixelRatio +"\n"+"RWD Width:"+width);
 		}
 	</script>
