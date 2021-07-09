@@ -9,10 +9,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" size ="144x144" href="galaxy.png">
+	<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
 	<script type="text/javascript">
 		window.onload=function(){ 
-			var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-			alert(window.devicePixelRatio +" "+width); 
+			
+			var deviceData = device.mobile();
+			var width =(deviceData)?qscreen.width:window.innerWidth ;
+			alert("Device Pixel Ratio:"+window.devicePixelRatio +"\n"+"RWD Width:"+width); 
 		}
 	</script>
 </head>
