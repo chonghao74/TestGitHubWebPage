@@ -146,6 +146,60 @@ a.more::after{
 	justify-content: space-between;
 }
 
+video{
+	float: right;
+	width:500px;
+}
+
+@media only screen and (max-width:414px){
+body {
+	width: 100%;
+	background-image:url(../img/body_bg_image.jpeg) ;
+	background-color:#fbf9cc;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+	h1{
+		margin: 50px;
+		font-size:25px;
+	}
+
+	main#content{
+	width: 300px;
+	margin:0 auto ;
+	background-color: #fff;
+	border: 10px solid #f6bb9e;
+	padding: 20px 10px ;
+	}
+
+	.showimgvideo{
+		display: block;
+	}
+
+	video{
+		width:100%;
+
+	}	
+
+	.img1,.img3,.img5{
+		margin-bottom: 10px;
+	}	
+
+	.img7{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.img2,.img4,.img6{
+		margin-bottom: 10px;
+	}
+
+	.clearfix:after{
+		content: "";
+		display: block;
+	}
+}
 
 
 
