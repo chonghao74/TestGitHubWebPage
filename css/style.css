@@ -153,11 +153,13 @@ video{
 
 @media only screen and (max-width:414px){
 body {
-	width: 100%;
+	width: 360px;
+	box-sizing: border-box;
 	background-image:url(../img/body_bg_image.jpeg) ;
 	background-color:#fbf9cc;
 	background-repeat: repeat-x;
 	background-attachment: fixed;
+	margin:0 auto ;
 }
 
 	h1{
@@ -169,7 +171,7 @@ body {
 	width: 300px;
 	margin:0 auto ;
 	background-color: #fff;
-	border: 10px solid #f6bb9e;
+	border: 4px solid #f6bb9e;
 	padding: 20px 10px ;
 	}
 
