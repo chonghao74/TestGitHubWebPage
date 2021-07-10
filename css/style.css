@@ -179,9 +179,12 @@ body {
 		display: block;
 	}
 
-	video{
-		width:100%;
+	.showimg{
+		width: 300px;
+	}	
 
+	video{
+		width: 300px;
 	}	
 
 	.img1,.img3,.img5{
