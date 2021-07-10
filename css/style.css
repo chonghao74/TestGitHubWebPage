@@ -163,7 +163,7 @@ body {
 }
 
 	h1{
-		margin: 50px;
+		margin: 20px 50px;
 		font-size:25px;
 	}
 
@@ -203,6 +203,10 @@ body {
 	.clearfix:after{
 		content: "";
 		display: block;
+	}
+
+	footer{
+		margin: 20px 0px;
 	}
 }
 
